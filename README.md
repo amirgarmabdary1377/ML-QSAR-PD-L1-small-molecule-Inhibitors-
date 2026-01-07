@@ -26,6 +26,7 @@ Cc1c(COc2ccc3nc(CN)c(NC(C)c4ccccc4)n3c2)cccc1-c1ccccc1 5.02
 ...
 ```
 
+
 Prediction Data (ligands.txt):
 
 info: FDA approved drugs(until 2025)
@@ -38,6 +39,7 @@ O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O
 CC1CCc2c(N3CCC(O)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23
 ...
 ```
+
 
 ## 📊 Expected Output
 Console: Model performance (R², MSE) and predictions
