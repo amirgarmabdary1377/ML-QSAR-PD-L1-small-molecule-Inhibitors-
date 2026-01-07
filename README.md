@@ -14,8 +14,11 @@ python qsar_pipeline.py
 ## 📂 Data Files
 
 Training Data (mol1.txt):
+
 info: small molecule inhibitors
+
 Format: SMILES<TAB>pIC50
+
 Example: 
 ``` bash
 Cc1c(COc2ccc3nc(CN)c(NCc4ccccc4)n3c2)cccc1-c1ccccc1 4.99
@@ -24,8 +27,11 @@ Cc1c(COc2ccc3nc(CN)c(NC(C)c4ccccc4)n3c2)cccc1-c1ccccc1 5.02
 ```
 
 Prediction Data (ligands.txt):
+
 info: FDA approved drugs(until 2025)
+
 Format: One SMILES per line
+
 Example:
 ``` bash
 O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O
