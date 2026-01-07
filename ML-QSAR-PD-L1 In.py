@@ -342,8 +342,8 @@ def main(train_file_path, predict_file_path):
 
 
 if __name__ == "__main__":
-    train_file_path = 'mol1.txt'
-    predict_file_path = 'ligands.txt'
+    train_file_path = 'PD-L1-inhibitors.txt'
+    predict_file_path = 'FDA drugs.txt'
     best_model, predictions = main(train_file_path, predict_file_path)
 
     
