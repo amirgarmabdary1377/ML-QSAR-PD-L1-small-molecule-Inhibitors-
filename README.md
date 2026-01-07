@@ -14,5 +14,4 @@ python qsar_pipeline.py
 mol1.txt: SMILES + pIC50 (training data)
 ligands.txt: SMILES of FDA drugs (prediction data)
 
-## 📞 Contact
-For questions: a.garmabdary@.gmail.com
+
